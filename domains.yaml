@@ -1,0 +1,20 @@
+apiVersion: backstage.io/v1alpha1
+kind: Domain
+metadata:
+  name: domain-dx
+  title: Domain Developer Experience
+  description: Domain for all DX related resources
+spec:
+  owner: team-dx # TODO
+  type: dx-capabilities
+---
+apiVersion: backstage.io/v1alpha1
+kind: System
+metadata:
+  name: system-blueprint
+  title: System Blueprint
+  description: System for all Blueprint related resources
+spec:
+  owner: team-dx # TODO
+  domain: domain-dx
+  type: dx-capabilities
