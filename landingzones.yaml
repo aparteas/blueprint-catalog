@@ -13,7 +13,7 @@ spec:
 apiVersion: backstage.io/v1alpha1
 kind: Resource
 metadata:
-  name: azure-lz-1
+  name: azure-lz-2
   title: Azure Landinzone 2
   description: For ressurser som kjører i denne landingssonen
 spec:
