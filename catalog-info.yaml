@@ -1,0 +1,13 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: blueprint-catalog
+  title: Blueprint Catalog
+  description: OBOS Developer Portal common entities
+  tags:
+    - configuration
+spec:
+  type: configuration
+  owner: team-dx
+  system: system-blueprint
+  lifecycle: experimental
