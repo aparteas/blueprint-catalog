@@ -11,3 +11,5 @@ spec:
   owner: team-dx
   system: system-blueprint
   lifecycle: experimental
+  dependsOn:
+    - resource:default/azure-lz-1

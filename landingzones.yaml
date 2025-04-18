@@ -1,0 +1,23 @@
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+metadata:
+  name: azure-lz-1
+  title: Azure Landinzone 1
+  description: For ressurser som kjører i denne landingssonen
+spec:
+  owner: team-dx # TODO
+  type: landingzone
+  dependsOn:
+    - resource:default/azure
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+metadata:
+  name: azure-lz-1
+  title: Azure Landinzone 2
+  description: For ressurser som kjører i denne landingssonen
+spec:
+  owner: team-dx # TODO
+  type: landingzone
+  dependsOn:
+    - resource:default/azure
