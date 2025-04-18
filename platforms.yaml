@@ -1,0 +1,9 @@
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+metadata:
+  name: azure
+  title: Azure
+  description: Parent for all other Azure related resources
+spec:
+  owner: team-dx # TODO
+  type: platform
