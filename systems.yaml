@@ -11,6 +11,16 @@ spec:
 apiVersion: backstage.io/v1alpha1
 kind: System
 metadata:
+  name: system-github
+  title: System GitHub
+  description: System for alle ressurser tilknyttet GitHub
+spec:
+  owner: team-dx
+  domain: domain-dx-apps
+---
+apiVersion: backstage.io/v1alpha1
+kind: System
+metadata:
   name: system-azure
   title: System Azure
   description: System for alle ressurser tilknyttet Azure
