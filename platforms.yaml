@@ -5,7 +5,7 @@ metadata:
   title: Platform Azure
   description: For ressurser med avhengighet til Azure som platform
 spec:
-  owner: team-sit
+  owner: team-skyinfrastruktur-og-tjenester
   type: platform
   dependsOn:
     - system:default/system-blueprint

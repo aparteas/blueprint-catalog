@@ -5,7 +5,7 @@ metadata:
   title: Azure Landinzone 1
   description: For ressurser som kjører i denne landingssonen
 spec:
-  owner: team-sit
+  owner: team-skyinfrastruktur-og-tjenester
   type: landingzone
   dependsOn:
     - resource:default/platform-azure
@@ -17,7 +17,7 @@ metadata:
   title: Azure Landinzone 2
   description: For ressurser som kjører i denne landingssonen
 spec:
-  owner: team-sit
+  owner: team-skyinfrastruktur-og-tjenester
   type: landingzone
   dependsOn:
     - resource:default/platform-azure
