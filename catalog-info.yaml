@@ -3,7 +3,7 @@ kind: Component
 metadata:
   name: blueprint-catalog
   title: Blueprint Catalog
-  description: OBOS Developer Portal common entities
+  description: OBOS Blueprint (IDP) felles entiteter
   tags:
     - configuration
 spec:
@@ -11,5 +11,3 @@ spec:
   owner: team-dx
   system: system-blueprint
   lifecycle: experimental
-  dependsOn:
-    - resource:default/azure-lz-1

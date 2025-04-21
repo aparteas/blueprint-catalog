@@ -1,9 +1,11 @@
 apiVersion: backstage.io/v1alpha1
 kind: Resource
 metadata:
-  name: azure
-  title: Azure
-  description: Parent for all other Azure related resources
+  name: platform-azure
+  title: Platform Azure
+  description: For ressurser med avhengighet til Azure som platform
 spec:
-  owner: team-dx # TODO
+  owner: team-sit
   type: platform
+  dependsOn:
+    - system:default/system-blueprint

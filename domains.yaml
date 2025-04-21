@@ -2,7 +2,7 @@ apiVersion: backstage.io/v1alpha1
 kind: Domain
 metadata:
   name: domain-dx
-  title: Domain Developer Experience
-  description: Domain for all DX related resources
+  title: Domene Developer Experience
+  description: Domene for alle Systemer tilknyttet Developer Experience
 spec:
-  owner: team-dx # TODO
+  owner: team-dx

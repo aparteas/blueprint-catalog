@@ -5,10 +5,10 @@ metadata:
   title: Azure Landinzone 1
   description: For ressurser som kjører i denne landingssonen
 spec:
-  owner: team-dx # TODO
+  owner: team-sit
   type: landingzone
   dependsOn:
-    - resource:default/azure
+    - resource:default/platform-azure
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Resource
@@ -17,7 +17,7 @@ metadata:
   title: Azure Landinzone 2
   description: For ressurser som kjører i denne landingssonen
 spec:
-  owner: team-dx # TODO
+  owner: team-sit
   type: landingzone
   dependsOn:
-    - resource:default/azure
+    - resource:default/platform-azure

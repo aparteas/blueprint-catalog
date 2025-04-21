@@ -3,7 +3,7 @@ kind: System
 metadata:
   name: system-blueprint
   title: System Blueprint
-  description: System for all Blueprint related resources
+  description: System for alle ressurser tilknyttet OBOS Blueprint (IDP)
 spec:
-  owner: team-dx # TODO
+  owner: team-dx
   domain: domain-dx
