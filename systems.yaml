@@ -15,5 +15,5 @@ metadata:
   title: System Azure
   description: System for alle ressurser tilknyttet Azure
 spec:
-  owner: team-team-skyinfrastruktur-og-tjenester
+  owner: team-skyinfrastruktur-og-tjenester
   domain: domain-sit
