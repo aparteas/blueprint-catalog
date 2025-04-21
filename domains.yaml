@@ -1,8 +1,17 @@
 apiVersion: backstage.io/v1alpha1
 kind: Domain
 metadata:
-  name: domain-dx
-  title: Domene Developer Experience
-  description: Domene for alle Systemer tilknyttet Developer Experience
+  name: domain-dx-apps
+  title: Domene DX Applikasjoner
+  description: Domene for applikasjoner DX tilbyr utviklere
 spec:
   owner: team-dx
+---
+apiVersion: backstage.io/v1alpha1
+kind: Domain
+metadata:
+  name: domain-sit
+  title: Domene Skyinfrastruktur og -tjenester
+  description: Domene for infrastruktur og tjenester
+spec:
+  owner: team-skyinfrastruktur-og-tjenester

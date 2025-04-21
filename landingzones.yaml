@@ -8,7 +8,7 @@ spec:
   owner: team-skyinfrastruktur-og-tjenester
   type: landingzone
   dependsOn:
-    - resource:default/platform-azure
+    - system:default/system-azure
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Resource
@@ -20,4 +20,4 @@ spec:
   owner: team-skyinfrastruktur-og-tjenester
   type: landingzone
   dependsOn:
-    - resource:default/platform-azure
+    - system:default/system-azure

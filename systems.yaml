@@ -6,4 +6,14 @@ metadata:
   description: System for alle ressurser tilknyttet OBOS Blueprint (IDP)
 spec:
   owner: team-dx
-  domain: domain-dx
+  domain: domain-dx-apps
+---
+apiVersion: backstage.io/v1alpha1
+kind: System
+metadata:
+  name: system-azure
+  title: System Azure
+  description: System for alle ressurser tilknyttet Azure
+spec:
+  owner: team-team-skyinfrastruktur-og-tjenester
+  domain: domain-sit

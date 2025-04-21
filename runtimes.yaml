@@ -1,0 +1,11 @@
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+metadata:
+  name: runtime-dx-aks
+  title: Runtime DX AKS
+  description: For ressurser som kjører vha DX AKS
+spec:
+  owner: team-dx
+  type: runtime
+  dependsOn:
+    - system:default/system-azure
