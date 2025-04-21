@@ -6,6 +6,7 @@ metadata:
   description: OBOS Blueprint (IDP) felles entiteter
   tags:
     - configuration
+    - backstage
 spec:
   type: configuration
   owner: team-dx
