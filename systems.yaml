@@ -26,4 +26,14 @@ metadata:
   description: System for alle ressurser tilknyttet Azure
 spec:
   owner: team-skyinfrastruktur-og-tjenester
-  domain: domain-sit
+  domain: domain-sit-services
+---
+apiVersion: backstage.io/v1alpha1
+kind: System
+metadata:
+  name: system-entra-id
+  title: System EntraID
+  description: System EntraID
+spec:
+  owner: team-skyinfrastruktur-og-tjenester
+  domain: domain-sit-services

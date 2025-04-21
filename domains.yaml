@@ -10,8 +10,8 @@ spec:
 apiVersion: backstage.io/v1alpha1
 kind: Domain
 metadata:
-  name: domain-sit
-  title: Domene Skyinfrastruktur og -tjenester
-  description: Domene for infrastruktur og tjenester
+  name: domain-sit-services
+  title: Domene Skytjenester
+  description: Domene for tjenester tilbudt av Skyinfrastruktur og -tjenester
 spec:
   owner: team-skyinfrastruktur-og-tjenester
