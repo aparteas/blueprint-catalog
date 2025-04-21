@@ -8,4 +8,4 @@ spec:
   owner: team-dx
   type: runtime
   dependsOn:
-    - resources:default/azure-lz-1
+    - resource:default/azure-lz-1
