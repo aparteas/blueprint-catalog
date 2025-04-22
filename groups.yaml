@@ -8,7 +8,7 @@ metadata:
       title: Confluence space
       icon: dashboard
 spec:
-  type: root
+  type: business-unit
   profile:
     displayName: Platform og Data
   children:
