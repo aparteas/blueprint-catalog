@@ -5,7 +5,8 @@ metadata:
   description: Område Platform og Data
   links:
     - url: https://obos-bbl.atlassian.net/wiki/spaces/PLA/
-      icon: catalog
+      title: Confluence space
+      icon: dashboard
 spec:
   type: root
   profile:
