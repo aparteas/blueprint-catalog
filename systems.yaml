@@ -21,6 +21,16 @@ spec:
 apiVersion: backstage.io/v1alpha1
 kind: System
 metadata:
+  name: system-splunk
+  title: System Splunk
+  description: System for alle ressurser tilknyttet Splunk
+spec:
+  owner: team-dx
+  domain: domain-dx-apps
+---
+apiVersion: backstage.io/v1alpha1
+kind: System
+metadata:
   name: system-azure
   title: System Azure
   description: System for alle ressurser tilknyttet Azure
