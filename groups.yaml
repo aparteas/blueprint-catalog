@@ -3,6 +3,9 @@ kind: Group
 metadata:
   name: platform-og-data
   description: Område Platform og Data
+  links:
+    - url: http://vg.no/
+      icon: help
 spec:
   type: root
   profile:
@@ -10,13 +13,3 @@ spec:
   children:
     - team-dx
     - team-skyinfrastruktur-og-tjenester
----
-apiVersion: backstage.io/v1alpha1
-kind: Group
-metadata:
-  name: team-dx
-  description: DESC
-spec:
-  type: team
-  profile:
-    displayName: FEFEFEFE
