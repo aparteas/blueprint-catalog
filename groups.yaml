@@ -4,7 +4,7 @@ metadata:
   name: platform-og-data
   description: Område Platform og Data
   links:
-    - url: http://vg.no/
+    - url: https://obos-bbl.atlassian.net/wiki/spaces/PLA/
       icon: catalog
 spec:
   type: root
