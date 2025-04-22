@@ -5,7 +5,7 @@ metadata:
   description: Område Platform og Data
   links:
     - url: http://vg.no/
-      icon: help
+      icon: catalog
 spec:
   type: root
   profile:
