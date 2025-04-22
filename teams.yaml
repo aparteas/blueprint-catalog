@@ -1,0 +1,11 @@
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: team-dx
+  description: People working with Developer Experience EDIT
+  links:
+    - {url: http://ww.vg.no}
+spec:
+  type: team
+  profile:
+    displayName: Team DX EDIT
