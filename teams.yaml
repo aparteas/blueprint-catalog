@@ -1,0 +1,14 @@
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: platform-og-data
+  description: Område Platform og Data
+  links:
+    - {url: http://www.vg.no/}
+spec:
+  type: area
+  profile:
+    displayName: Platform og Data
+  children:
+    - team-dx
+    - team-skyinfrastruktur-og-tjenester
